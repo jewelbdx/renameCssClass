@@ -1,0 +1,7 @@
+.foo{
+    background-color: black;
+}
+
+.foo.someRandomClass{
+    font-size: 12px;
+}
