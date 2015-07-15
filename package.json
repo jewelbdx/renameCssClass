@@ -1,0 +1,14 @@
+{
+  "name": "rename-css-class",
+  "version": "0.0.1",
+  "description": "rename css class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Lau <sam.suifai.lau@gmail.com> (http://esayemm.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^3.15.0"
+  }
+}
