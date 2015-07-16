@@ -1,4 +1,6 @@
-;(function() {
+#!/usr/bin/env node
+
+(function() {
 'use strict';
 
 // Deps
@@ -39,4 +41,4 @@ function defaultMessage() {
 // Execution
 init();
 
-}());
+}())
