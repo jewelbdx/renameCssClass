@@ -1,4 +1,6 @@
-;(function() {
+#!/usr/bin/env node
+
+(function() {
 'use strict';
 
 // Deps
@@ -33,10 +35,10 @@ function init() {
 
 function defaultMessage() {
     console.log('usage: '
-        + 'renameCssClass [pattern] [replacement] [file ...]')
+        + 'rename-css-class [pattern] [replacement] [file ...]')
 }
 
 // Execution
 init();
 
-}());
+}())

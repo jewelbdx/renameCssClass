@@ -1,11 +1,8 @@
 {
   "name": "rename-css-class",
-  "version": "0.0.1",
-  "description": "rename css class",
+  "version": "0.0.13",
+  "description": "CLI tool to rename css class in the scss/css/html files in a given directory recursively",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Sam Lau <sam.suifai.lau@gmail.com> (http://esayemm.github.io/)",
   "license": "ISC",
   "dependencies": {
@@ -16,5 +13,13 @@
     "mocha": "^2.2.5",
     "rimraf": "^2.4.1",
     "wrench": "^1.5.8"
+  },
+  "homepage": "https://github.com/esayemm/renameCssClass",
+  "bugs": {
+      "url": "https://github.com/esayemm/renameCssClass/issues"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "rename-css-class": "index.js"
   }
 }
