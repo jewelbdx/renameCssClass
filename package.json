@@ -17,5 +17,8 @@
   "homepage": "https://github.com/esayemm/renameCssClass",
   "bugs": {
       "url": "https://github.com/esayemm/renameCssClass/issues"
+  },
+  "bin": {
+      "rename-css-class": "./index.js"
   }
 }
